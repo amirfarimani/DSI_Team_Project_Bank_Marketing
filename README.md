@@ -12,7 +12,7 @@ The goal of this project is to build a classification model that accurately pred
 
 **Team Members**
 
-•	Amir F
+•	Amir Farimaniraad
 •	Jalpa Purohit
 •	Mengting Wang
 •	Oleksii Virko
