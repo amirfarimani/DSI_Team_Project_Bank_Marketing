@@ -16,7 +16,6 @@ The goal of this project is to build a classification model that accurately pred
 •	Jalpa Purohit
 •	Mengting Wang
 •	Oleksii Virko
-•	Pierre 
 
 **Executive Summary**
 
