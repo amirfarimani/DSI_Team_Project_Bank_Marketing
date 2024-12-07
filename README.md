@@ -13,7 +13,9 @@ The goal of this project is to build a classification model that accurately pred
 **Team Members**
 
 •	Amir Farimaniraad
+
 •	Jalpa Purohit
+
 •	Mengting Wang
 
 **Executive Summary**
