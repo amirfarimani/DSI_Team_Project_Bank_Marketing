@@ -41,27 +41,30 @@ The goal is to develop a classification model capable of accurately predicting w
 
 This project will span the following phases:
 
-•	**Data Collection**: Aggregating historical data on client demographics, transactions, campaign responses, and relevant economic indicators.
+1. **Data Collection**: Aggregating historical data on client demographics, transactions, campaign responses, and relevant economic indicators.
 
 **Data link**: https://archive.ics.uci.edu/dataset/222/bank+marketing  
 
-•	**Data cleaning**
+2. **Data cleaning**
 
-•	**Data Analysis and Feature Engineering**: Identifying the most significant variables and preparing data for modeling.
+3. **Data Analysis and Feature Engineering**: Identifying the most significant variables and preparing data for modeling.
 
-•	**Model Development**: Building and training various classification models (e.g., Logistic Regression, Decision Trees, Random Forest) to evaluate predictive accuracy.
+4. **Model Development**: Building and training various classification models (e.g., Logistic Regression, Decision Trees, Random Forest) to evaluate predictive accuracy.
 
-•	**Implementation and Monitoring**: Deploying the best-performing model and setting up monitoring protocols to ensure model relevance over time. This can be perform in live enviornment which is not applicable to our project.
+5. **Implementation and Monitoring**: Deploying the best-performing model and setting up monitoring protocols to ensure model relevance over time. This can be perform in live enviornment which is not applicable to our project.
 
 
 **Key Metrics**
 
 The primary metrics for model evaluation include:
 
-Accuracy: Measures the overall correctness of predictions, representing the percentage of correct predictions out of all predictions made.
-Precision: Focuses on the proportion of true positive predictions out of all positive predictions, highlighting the reliability of positive classifications.
-Recall: Emphasizes the ability of the model to identify all actual positives, critical for imbalanced datasets.
-F1-Score: Combines Precision and Recall into a single metric to provide a balanced measure of a model's performance.
+*Accuracy:* Measures the overall correctness of predictions, representing the percentage of correct predictions out of all predictions made.
+
+*Precision:* Focuses on the proportion of true positive predictions out of all positive predictions, highlighting the reliability of positive classifications.
+
+*Recall:* Emphasizes the ability of the model to identify all actual positives, critical for imbalanced datasets.
+
+*F1-Score:* Combines Precision and Recall into a single metric to provide a balanced measure of a model's performance.
 
 **Expected Benefits**
 
