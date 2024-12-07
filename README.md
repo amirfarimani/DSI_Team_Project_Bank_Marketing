@@ -12,7 +12,7 @@ The goal of this project is to build a classification model that accurately pred
 
 **Team Members**
 
-•	Amir Farimaniraad
+•	Amir Farimaniraad [Project Presentation Video]("C:\Users\farim\OneDrive\documents\zoom\2024-12-07 08.56.42 amir farimani's zoom meeting\video13191682964.mp4")
 
 •	Jalpa Purohit
 
