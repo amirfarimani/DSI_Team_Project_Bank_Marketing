@@ -49,7 +49,7 @@ This project will span the following phases:
 
 3. **Data Analysis and Feature Engineering**: Identifying the most significant variables and preparing data for modeling.
 
-4. **Model Development**: Building and training various classification models (e.g., Logistic Regression, Decision Trees, Random Forest) to evaluate predictive accuracy.
+4. **Model Development**: Building and training various classification models to evaluate predictive accuracy.
 
 5. **Implementation and Monitoring**: Deploying the best-performing model and setting up monitoring protocols to ensure model relevance over time. This can be perform in live enviornment which is not applicable to our project.
 
