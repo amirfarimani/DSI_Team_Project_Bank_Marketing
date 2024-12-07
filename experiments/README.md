@@ -53,16 +53,16 @@ Accuracy: Overall proportion of correct predictions. Precision: Proportion of tr
 **Performance Metrics :**
 
 Metric	KNN	Random Forest	XGBoost
-Accuracy (%)	87.0	89.0	87.0
-Precision	0.43	0.53	0.48
-Recall	0.39	0.62	0.79
-F1-Score	0.41	0.57	0.59
+Accuracy (%)	87.0	92.0	87.0
+Precision	0.43	0.50	0.48
+Recall	0.39	0.70	0.79
+F1-Score	0.41	0.58	0.59
 
 **Observations** :
 
 KNN - Achieved reasonable accuracy (87%) but struggled with the minority class (low precision). Recall (0.39) indicates it could capture some positives but less effectively than Random Forest or XGBoost.
 
-Random Forest - Strong balance between precision (0.53) and recall (0.62), resulting in an F1-Score of 0.57. Highest overall accuracy (89%) among the three models.
+Random Forest - Strong balance between precision (0.50) and recall (0.70), resulting in an F1-Score of 0.58. Highest overall accuracy (92%) among the three models.
 
 XGBoost - Achieved the best recall (0.79), making it suitable for identifying positive cases. Lower precision (0.48) compared to Random Forest but outperformed in F1-Score (0.59).
 
