@@ -1,5 +1,5 @@
 # DSI_Team_Project_Bank_Marketing
-This project aims to use classification models to predict whether a client will subscribe by analyzing a comprehensive set of factors, including demographic, financial, campaign interaction, and economic variables.
+This project aims to use classification models to predict whether a client will subscribe a term deposit by analyzing a comprehensive set of factors, including demographic, financial, campaign interaction, and economic variables.
 
 
 
@@ -8,7 +8,7 @@ This project aims to use classification models to predict whether a client will 
 
 **Project Overview**
 
-The goal of this project is to build a classification model that accurately predicts whether a client will subscribe. By analyzing a dataset that includes demographic, financial, campaign interaction, and economic variables, the model aims to identify clients at risk of leaving. This predictive tool will enable the organization to proactively address risks, optimize retention efforts, and improve overall customer loyalty.
+The goal of this project is to build a classification model that accurately predicts whether a client will subscribe a term deposit. By analyzing a dataset that includes demographic, financial, campaign interaction, and economic variables, the model aims to identify clients at risk of leaving. This predictive tool will enable the organization to proactively address risks, optimize retention efforts, and improve overall customer loyalty.
 
 **Team Members**
 
@@ -26,7 +26,7 @@ The organization faces significant client turnover, which impacts revenue stabil
 
 **Objective**
 
-The goal is to develop a classification model capable of accurately predicting whether a customer will subscribe. The model will analyze various factors such as:
+The goal is to develop a classification model capable of accurately predicting whether a customer will subscribe a term deposit. The model will analyze various factors such as:
 
 1.	Demographic Variables: Age, gender, location, and income level.
 2.	Financial Variables: Account balances, average transaction values, and product holdings.
@@ -74,4 +74,4 @@ F1-Score: Combines Precision and Recall into a single metric to provide a balanc
    
 **Conclusion**
 
-This project represents a strategic opportunity to increase clinet susbcriptions, thus enhancing long-term revenue and customer satisfaction. By deploying data-driven retention strategies, the organization will strengthen its market position and improve customer loyalty.
+This project represents a strategic opportunity to increase client susbcriptions, thus enhancing long-term revenue and customer satisfaction. By deploying data-driven retention strategies, the organization will strengthen its market position and improve customer loyalty.
