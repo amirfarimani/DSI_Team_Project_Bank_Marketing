@@ -1,5 +1,6 @@
 
-Objective :
+
+
 
 The goal of this analysis is to predict whether a client will subscribe to a term deposit (y) using three classification models: KNN, Random Forest, and XGBoost. The models are evaluated and compared to identify the most suitable one for the task.
 
