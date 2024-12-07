@@ -40,7 +40,7 @@ Total Records: 45,211 Features: 16 (after preprocessing) Target Variable: 1 (Sub
 
 **Models and Parameters :**
 
-K-Nearest Neighbors (KNN) - Key Parameters: n_neighbors=5 Strengths: Simple and interpretable. Weaknesses: Sensitive to class imbalance; lower recall for the minority class.
+K-Nearest Neighbors (KNN) - Key Parameters: n_neighbors=2 Strengths: Simple and interpretable. Weaknesses: Sensitive to class imbalance; lower recall for the minority class.
 
 Random Forest - Key Parameters: n_estimators=100, max_depth=20, min_samples_split=5, min_samples_leaf=2 Strengths: Handles class imbalance well and is robust to overfitting. Weaknesses: Computationally intensive for large datasets.
 
