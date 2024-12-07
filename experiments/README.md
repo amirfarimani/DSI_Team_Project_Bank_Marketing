@@ -212,7 +212,7 @@ Random Forest: Strong baseline with high performance across most metrics.
 
 XGBoost: Performed best in [specific metric, e.g., Recall], likely due to effective handling of class imbalance via scale_pos_weight.
 
-6. Conclusion
+  11. Conclusion
 
 The comparison highlights [best model] as the most effective algorithm for this task. Future steps include fine-tuning hyperparameters further and exploring additional ensemble methods to improve performance.
 
