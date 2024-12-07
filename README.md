@@ -14,7 +14,7 @@ The goal of this project is to build a classification model that accurately pred
 
 •	Amir Farimaniraad [Project Presentation Video](https://1drv.ms/v/c/8233b30c2347c1bd/ERoAAZCBQJJNiBPCOX0QJ2kB4AkE8kXwcJrdF7u-POb2Hw?e=NCtnjQ)
 
-•	Jalpa Purohit
+•	Jalpa Purohit  [JP_Project_video_link](https://drive.google.com/file/d/1nDvItOH3Gg7dWBx1Bu5xhiGyisEGTziH/view?usp=drive_link)  
 
 •	Mengting Wang     [Project video link:](https://drive.google.com/file/d/1Db2cqKrbnRMzE88htrygZSowKIfjWjRn/view?usp=sharing)
 
