@@ -1,134 +1,77 @@
-Modeling and Evaluation
 
-Objective
+Objective :
 
-The goal of this modeling process was to predict [insert target variable, e.g., "client subscription status"] using three machine learning algorithms: K-Nearest Neighbors (KNN), Random Forest, and XGBoost. Consistent evaluation metrics were applied across all models to ensure a fair comparison of performance.
+The goal of this analysis is to predict whether a client will subscribe to a term deposit (y) using three classification models: KNN, Random Forest, and XGBoost. The models are evaluated and compared to identify the most suitable one for the task.
 
-1. Data Preparation
+Dataset Overview :
 
-The dataset was split into training (80%) and test (20%) sets.
+Total Records: 45,211
+Features: 16 (after preprocessing)
+Target Variable:
+1 (Subscribed): 11.7%
+0 (Not Subscribed): 88.3%
 
-Features (X) and target (Y) variables were appropriately preprocessed.
+Models and Parameters :
 
-Standardization was applied to the features for models requiring it (e.g., KNN).
+K-Nearest Neighbors (KNN) - 
+Key Parameters: n_neighbors=5
+Strengths: Simple and interpretable.
+Weaknesses: Sensitive to class imbalance; lower recall for the minority class.
 
-For handling class imbalance, scale_pos_weight was used in XGBoost, while Random Forest handled the imbalance inherently.
+Random Forest - 
+Key Parameters: n_estimators=100, max_depth=20, min_samples_split=5, min_samples_leaf=2
+Strengths: Handles class imbalance well and is robust to overfitting.
+Weaknesses: Computationally intensive for large datasets.
 
-2. Models
+XGBoost - 
+Key Parameters: learning_rate=0.1, n_estimators=100, max_depth=6, scale_pos_weight=7.55
+Strengths: Excellent for imbalanced datasets, interpretable via feature importance.
+Weaknesses: High computational cost.
 
-K-Nearest Neighbors (KNN)
 
-KNN is a non-parametric algorithm that predicts based on the majority vote of the nearest neighbors.
+The models were evaluated on:
 
-Hyperparameters:
-
-Number of neighbors (k): [insert chosen value]
-
-Distance metric: [e.g., Euclidean]
-
-Random Forest
-
-A tree-based ensemble method that uses bagging and feature randomness for predictions.
-
-Hyperparameters:
-
-Number of trees (n_estimators): [insert chosen value]
-
-Maximum depth (max_depth): [insert chosen value]
-
-XGBoost
-
-A gradient boosting method optimized for performance and efficiency.
-
-Hyperparameters:
-
-Learning rate: [insert chosen value]
-
-Number of trees (n_estimators): [insert chosen value]
-
-Maximum depth (max_depth): [insert chosen value]
-
-scale_pos_weight: [insert calculated value]
-
-3. Evaluation Metrics
-
-The following metrics were consistently used across all models to compare their performance:
-
-Accuracy: Proportion of correctly classified samples.
-
-Precision: Proportion of correctly predicted positive samples.
-
-Recall (Sensitivity): Proportion of actual positive samples correctly identified.
-
+Accuracy: Overall proportion of correct predictions.
+Precision: Proportion of true positives among predicted positives.
+Recall: Proportion of actual positives correctly identified.
 F1-Score: Harmonic mean of precision and recall.
 
-ROC-AUC Score: Ability to rank positive samples higher than negative samples.
 
-4. Results
 
-Evaluation Metrics Comparison
+Performance Metrics :
 
-Metric
+| **Metric**          | **KNN**  | **Random Forest** | **XGBoost** |
+|---------------------|----------|-------------------|-------------|
+| **Accuracy (%)**    | 84.0     | 89.0              | 87.0        |
+| **Precision**       | 0.38     | 0.53              | 0.48        |
+| **Recall**          | 0.58     | 0.62              | 0.79        |
+| **F1-Score**        | 0.46     | 0.57              | 0.59        |
 
-KNN
 
-Random Forest
+Observations :
 
-XGBoost
+KNN - 
+Achieved reasonable accuracy (84%) but struggled with the minority class (low precision).
+Recall (0.58) indicates it could capture some positives but less effectively than Random Forest or XGBoost.
 
-Accuracy (%)
+Random Forest - 
+Strong balance between precision (0.53) and recall (0.62), resulting in an F1-Score of 0.57.
+Highest overall accuracy (89%) among the three models.
 
-[value]
+XGBoost -
+Achieved the best recall (0.79), making it suitable for identifying positive cases.
+Lower precision (0.48) compared to Random Forest but outperformed in F1-Score (0.59).
 
-[value]
 
-[value]
+Conclusion:
 
-Precision
+Random Forest has the highest overall accuracy and balanced performance across all metrics.
+XGBoost is the best for recall, making it ideal when identifying positive cases is critical.
 
-[value]
+Recommendations :
 
-[value]
+We can XGBoost for scenarios requiring high recall (e.g., minimizing false negatives).
+Random Forest is suitable for general-purpose tasks with high accuracy and balanced metrics.
 
-[value]
 
-Recall
-
-[value]
-
-[value]
-
-[value]
-
-F1-Score
-
-[value]
-
-[value]
-
-[value]
-
-ROC-AUC
-
-[value]
-
-[value]
-
-[value]
-
-5. Insights
-
-Best Performing Model: Based on [specific metric, e.g., ROC-AUC], [model name] achieved the best performance.
-
-Strengths and Weaknesses:
-
-KNN: Simple but less effective for larger datasets or imbalanced classes.
-
-Random Forest: Strong baseline with high performance across most metrics.
-
-XGBoost: Performed best in [specific metric, e.g., Recall], likely due to effective handling of class imbalance via scale_pos_weight.
-
-6. Conclusion
-
-The comparison highlights [best model] as the most effective algorithm for this task. Future steps include fine-tuning hyperparameters further and exploring additional ensemble methods to improve performance.
 
